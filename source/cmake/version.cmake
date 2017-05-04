@@ -3,7 +3,7 @@ if(CMAKE_VERSION VERSION_LESS "2.8.10")
 else()
     find_package(Hg QUIET)
 endif()
-find_package(Git QUIET) # present in 2.8.8
+#find_package(Git QUIET) # present in 2.8.8
 
 # defaults, in case everything below fails
 set(X265_VERSION "unknown")
